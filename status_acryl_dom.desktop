@@ -1,0 +1,9 @@
+# /home/pi/.config/autostart (mkdir)
+# creat status_acryl_dom.desktop
+
+[Desktop Entry]
+Type=Application
+Name=TerminalAutostartTest
+Comment=Terminal Autostart Test
+Exec=lxterminal -e /usr/bin/python3 /home/pi/heatcontrol.py
+Terminal=true
